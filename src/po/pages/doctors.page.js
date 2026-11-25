@@ -1,5 +1,5 @@
-const ListHeaderComponent = require('../components/doctors/list-header.component');
-const AddDoctorComponent = require('../components/doctors/add-doctor.component');
+const { AddDoctorComponent, ListHeaderComponent } = require('./../components');
+
 const BasePage = require('./../pages/base.page');
 
 class DoctorsPage extends BasePage {
